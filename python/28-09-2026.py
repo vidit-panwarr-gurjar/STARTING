@@ -59,3 +59,5 @@ print(2%3)
 #more new shit 
 a = 'abc'
 print(bool())   
+#git check
+aa = 'checking git'
