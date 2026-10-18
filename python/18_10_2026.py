@@ -16,4 +16,14 @@ c.insert(0,"medidate")
 print(c)
 c.insert(-1,'sleep')
 print(c)
+#q4
+d=[["vidit",100],["DC",100],["VIKI",100]]
+print(d[1][0],d[2][1])
+#q5
+e = [101,'Vranasi',25.3,82.9]
+id,city,lat,lon = e 
+print(f"my id is {id} and i live in {city} whereas my lat and lon are {lat} {lon}")
+
+
+
 
