@@ -12,5 +12,12 @@ e ={'Sara','Amit','neha'}
 print(d & e)
 print(d | e)
 #q4
-a,b = 1,2
-a,b = b,a
+f,g = 1,2
+f,g = g,f
+#q5
+j = {"A","B","C","D","E"}
+k = {"A","C","E"}
+print(j-k)
+
+
+
