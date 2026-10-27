@@ -19,3 +19,22 @@ def describe(**kwargs):
     print("age is ",kwargs["age"])
 
 print(describe(name = "vidit", age = 19))
+#4
+def max(*args):
+    max = 0
+    for i in args:
+        if i > max:
+            max = i
+    return max
+print(max(5,6,3,2,4))
+#5
+def add3(a,b,c):
+    return a+b+c
+
+nums = [4,5,6]
+print(add3(*nums))
+#6
+
+    
+
+
