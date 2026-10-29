@@ -16,3 +16,19 @@ a = open("quote.txt","r")
 b =a.readlines()
 print(len(b))
 a.close()
+#q3
+d = open("quote.txt", "w")
+
+while True:
+    e = input("Enter a line (type quit to stop): ")
+
+    if e == "quit":
+        break
+
+    d.write(e + "\n")
+
+d.close()
+
+f = open("quote.txt", "r")
+print(f.read())
+f.close()
