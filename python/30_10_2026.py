@@ -5,3 +5,9 @@ with open("quote.txt","w") as file:
 
 with open("quote.txt","r") as file:
     file.read()
+
+#q2
+file = open("quote.txt","a")
+for i in range(0,3):
+    file.write("hello\n")
+file.close()
