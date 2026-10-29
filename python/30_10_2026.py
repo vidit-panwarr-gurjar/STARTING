@@ -11,3 +11,8 @@ file = open("quote.txt","a")
 for i in range(0,3):
     file.write("hello\n")
 file.close()
+#q3
+a = open("quote.txt","r")
+b =a.readlines()
+print(len(b))
+a.close()
