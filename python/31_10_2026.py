@@ -12,4 +12,13 @@ print(dt.datetime.now().year)
 import greetings as gt
 print(gt.hello("yes"))
 
+#Q4
+from utils.numbers import is_even
+print(is_even(34))
+from utils.strings import shout
+print(shout("abc"))
+
+#Q5
+a = int(input("enter the length of the passowrd you need"))
+print(rm.randint(0,a))
 
