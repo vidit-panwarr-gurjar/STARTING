@@ -16,7 +16,7 @@ a = open("quote.txt","r")
 b =a.readlines()
 print(len(b))
 a.close()
-#q3
+#q4
 d = open("quote.txt", "w")
 
 while True:
